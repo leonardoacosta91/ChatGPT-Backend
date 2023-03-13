@@ -17,7 +17,8 @@ docker-compose up
 El proyecto se ejecuta en http://localhost:8080
 
 ## Autores ✒️
-* **Leonardo Acosta** - *Proyecto completo* - [Leonardo Acosta](https://github.com/leonardoacosta91)
+* **Leonardo Acosta** - *Backend* - [Leonardo Acosta](https://github.com/leonardoacosta91)
+* **Andrés Menchaca** - *Frontend* - [Andrés Menchaca](https://github.com/valinor33)
 
 ## Cierre ⌨️
 

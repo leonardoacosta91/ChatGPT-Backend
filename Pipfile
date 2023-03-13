@@ -8,6 +8,7 @@ fastapi = "*"
 uvicorn = "*"
 openai = "*"
 python-dotenv = "*"
+pyjwt = "*"
 
 [dev-packages]
 
