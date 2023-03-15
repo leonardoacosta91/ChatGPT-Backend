@@ -1,6 +1,6 @@
 # ChatGPT Backend
 
-Prueba sencilla de chateo con ChatGPT usando FastAPI
+Prueba sencilla de chateo con ChatGPT usando Flask
 
 ### Pre-requisitos 📋
 Docker

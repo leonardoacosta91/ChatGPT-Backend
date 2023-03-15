@@ -17,7 +17,6 @@ def create_token(username):
         JWT_SECRET,
         algorithm=JWT_ALGORITHM,
     )
-    str(type(token))
     return {"token": token}
 
 
@@ -36,7 +35,6 @@ def token_required(func):
         # except jwt.InvalidTokenError:
         #     return 'Invalid token. Please log in again.'
         except Exception as e:
-            print(str(e))
             return jsonify({"Message": "Invalid token"}), 403
         return func(*args, **kwargs)
 
