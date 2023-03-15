@@ -14,7 +14,7 @@ docker-compose up
 ```
 
 ## Puerto de la app ⚓
-El proyecto se ejecuta en http://localhost:8080
+El proyecto se ejecuta en http://localhost:8000
 
 ## Autores ✒️
 * **Leonardo Acosta** - *Backend* - [Leonardo Acosta](https://github.com/leonardoacosta91)

@@ -1,8 +1,9 @@
-FROM python:3.10
+FROM python:3.9.12
 
 WORKDIR /code
 COPY . /code
-RUN pip install pipenv
-RUN pipenv install --system --deploy
+RUN pip install -r requirements.txt
+ENV FLASK_APP=application
+ENV FLASK_DEBUG=1
 
-CMD [ "uvicorn" , "main:app", "--proxy-headers", "--host", "0.0.0.0", "--port", "8080", "--reload"]
+CMD ["flask", "run", "--host=0.0.0.0", "--port=8000"]
